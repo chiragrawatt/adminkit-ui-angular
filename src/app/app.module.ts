@@ -10,7 +10,17 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarNavComponent } from './sidebar/sidebar-nav/sidebar-nav.component';
 import { CtaComponent } from './sidebar/cta/cta.component';
-import { StatsCardComponent } from './main-content/stats-card/stats-card.component';
+import { DashboardComponent } from './main-content/dashboard/dashboard.component';
+import { StatCardComponent } from './main-content/dashboard/stat-card/stat-card.component';
+import { ProfileComponent } from './main-content/profile/profile.component';
+import { BlankComponent } from './main-content/blank/blank.component';
+import { ButtonsComponent } from './main-content/buttons/buttons.component';
+import { FormsComponent } from './main-content/forms/forms.component';
+import { CardsComponent } from './main-content/cards/cards.component';
+import { TypographyComponent } from './main-content/typography/typography.component';
+import { IconsComponent } from './main-content/icons/icons.component';
+import { ChartsComponent } from './main-content/charts/charts.component';
+import { MapsComponent } from './main-content/maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +31,17 @@ import { StatsCardComponent } from './main-content/stats-card/stats-card.compone
     FooterComponent,
     SidebarNavComponent,
     CtaComponent,
-    StatsCardComponent
+    DashboardComponent,
+    StatCardComponent,
+    ProfileComponent,
+    BlankComponent,
+    ButtonsComponent,
+    FormsComponent,
+    CardsComponent,
+    TypographyComponent,
+    IconsComponent,
+    ChartsComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,

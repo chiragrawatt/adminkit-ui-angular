@@ -3,7 +3,7 @@ import * as feather from 'feather-icons';
 
 interface SidebarNav {
   header: string,
-  navLinks: string[]
+  navLinks: {title: string, path: string}[]
 }
 
 @Component({

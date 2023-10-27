@@ -10,28 +10,64 @@ export class SidebarComponent {
     {
       header: "Pages",
       navLinks: [
-        "Dashboard",
-        "Profile",
-        "Sign In",
-        "Sign Up",
-        "Blank"
+        {
+          title: "Dashboard",
+          path: "/dashboard"
+        },
+        {
+          title: "Profile",
+          path: "/profile"
+        },
+        {
+          title: "Sign In",
+          path: ""
+        },
+        {
+          title: "Sign Up",
+          path: ""
+        },
+        {
+          title: "Blank",
+          path: "/blank"
+        }
       ]
     },
     {
       header: "Tools & Components",
       navLinks: [
-        "Buttons",
-        "Forms",
-        "Cards",
-        "Typography",
-        "Icons"
+        {
+          title: "Buttons",
+          path: "/buttons"
+        },
+        {
+          title: "Forms",
+          path: "/forms"
+        },
+        {
+          title: "Cards",
+          path: "/cards"
+        },
+        {
+          title: "Typography",
+          path: "/typography"
+        },
+        {
+          title: "Icons",
+          path: "/icons"
+        }
       ]
     },
     {
       header: "Plugins & Addons",
       navLinks: [
-        "Charts",
-        "Maps"
+        {
+          title: "Charts",
+          path: "/charts"
+        },
+        {
+          title: "Maps",
+          path: "/maps"
+        }
       ]
     }
   ]

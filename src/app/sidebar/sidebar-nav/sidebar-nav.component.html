@@ -4,8 +4,8 @@
     </li>
     <div *ngFor="let data of navData?.navLinks">
         <li class="sidebar-item">
-            <a class="sidebar-link" href="index.html">
-                <i class="align-middle"></i> <span class="align-middle">{{data}}</span>
+            <a class="sidebar-link" [routerLink]="data.path">
+                <i class="align-middle"></i> <span class="align-middle">{{data.title}}</span>
             </a>
         </li>
     </div>

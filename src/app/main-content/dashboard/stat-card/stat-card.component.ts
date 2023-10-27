@@ -8,10 +8,10 @@ interface Stat {
 }
 
 @Component({
-  selector: 'app-stats-card',
-  templateUrl: './stats-card.component.html',
-  styleUrls: ['./stats-card.component.css']
+  selector: 'app-stat-card',
+  templateUrl: './stat-card.component.html',
+  styleUrls: ['./stat-card.component.css']
 })
-export class StatsCardComponent {
+export class StatCardComponent {
   @Input() stat!: Stat;
 }
